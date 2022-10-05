@@ -112,13 +112,39 @@ a:link {
   }
   .title{
     font-family: 'Trebuchet MS', sans-serif;
-    color: aliceblue;
+    color: rgb(225, 237, 247);
     padding-left: 1cm;
   }
-.select-bar{
+.search-bar{
+    display: inline-block;
  position: absolute;   
 padding-top:3cm; 
 padding-left: 2cm;
+height: 40px;
 /* width:3cm; */
 
 }
+
+
+.title-button{
+    /* margin-top: 30px; */
+    /* margin-left:5cm ; */
+    width: 200px;
+    right: 20px;
+    position: absolute;
+    height: 40px;
+    /* top:2cm; */
+    right: 18cm;
+    
+}
+
+
+
+/* .fa fa-facebook icon {
+    position: absolute;
+    left: 7cm;
+    padding: 10px;
+    margin: 0;
+    min-width: 40px;
+
+} */
