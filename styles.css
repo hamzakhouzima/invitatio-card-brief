@@ -1,0 +1,124 @@
+
+*{
+    box-sizing: border-box;
+}
+.navigation {
+position: relative;
+ background-color: rgb(255, 255, 255); 
+ display:inline-flex;
+ /* vertical-align: top; */
+padding: 6px;
+width: 100%;
+}
+ .button1{
+ position:absolute;
+ background-color: black;
+ border-radius: 4px;
+ top: 50%;
+color:white;
+ margin-top: 30px;
+ width: 70px; 
+
+
+
+
+}
+.button2{
+    position:absolute;
+    background-color: white;
+  
+    top: 50%;
+   color:black;
+    margin-top: 30px;
+    width: 70px;
+    right: 20px;
+    border: none;
+   
+   
+   }
+
+ @media screen and (max-width: 600px) {
+    .navigation
+    
+    
+    {
+        width: 70%;
+    }
+    
+
+    }
+    
+   
+
+li{
+
+display:inline-flex;
+padding: 16px;
+
+
+}
+ul{
+    
+list-style: none;
+padding: l3cm; ;
+
+}
+nav{
+float: left;
+display:flex;
+padding-left: 2cm;
+
+}
+/* .style{
+    /* font-family: Trebuchet ; */
+ 
+ .login{
+ position:absolute;
+    padding-left: 90%;
+    display:flex;
+
+
+}
+#header{
+    display: flex;
+    position: relative;
+    margin-bottom: 100px; 
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    height: 5cm;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+
+
+}
+
+
+.image{
+    position: absolute;
+    display: flex;
+    width: 250px;
+    height: 270px;
+    margin-left: 70% ;
+    margin-bottom: 100px;
+    /* background-color: white;  */
+    
+}
+
+
+a:link {
+    text-decoration: none;
+  }
+  .title{
+    font-family: 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    padding-left: 1cm;
+  }
+.select-bar{
+ position: absolute;   
+padding-top:3cm; 
+padding-left: 2cm;
+/* width:3cm; */
+
+}
