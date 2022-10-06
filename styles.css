@@ -6,7 +6,7 @@
 position: relative;
  background-color: rgb(255, 255, 255); 
  display:inline-flex;
- /* vertical-align: top; */
+ 
 padding: 60px;
 padding-bottom: 3px;
 width: 80%;
@@ -66,8 +66,7 @@ display:flex;
 padding-left: 2cm;
 
 }
-/* .style{
-    /* font-family: Trebuchet ; */
+
  
  .login {
     position:absolute;
@@ -88,7 +87,7 @@ padding-left: 2cm;
     margin-right: 50px;
     
     border-radius: 3px;
-    /* padding: 2cm; */
+    
 
 
 
@@ -103,7 +102,7 @@ padding-left: 2cm;
     height: 290px;
     margin-left: 70% ;
      margin-bottom: 100px; 
-    /* background-color: white;  */
+  
     
 }
 
@@ -123,73 +122,50 @@ a:link {
 .search-bar {
  display: flex;
  position: absolute;   
-/* padding-top:3cm; 
-padding-left: 2cm; */
+
 height: 40px;
+border:none;
 border-radius: 7px;
 width: 7cm;
 
 
 
-/* min-width: 100px; */
 
-
-
-/* width:3cm; */
 
 }
 
 
 .title-button{
-    /* margin-top: 30px; */
-    /* margin-left:5cm ; */
-    /* display: flex; */
+    
     display: table-cell;
     vertical-align: middle;
     width: 200px;
     right: -1cm;
     position: absolute;
     height: 40px;
-    /* top:2cm; */
-    
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 54%, rgba(252,176,69,1) 100%);
     border-radius: 7px;
-    
+ 
    
 
 }
-/* body{
-  margin-top: 10cm;
 
-
-} */
 
 .title input{
     color:black;
+} 
+
+
+.title ion-icon{
+    position:absolute;
+   color:black;
+   left: 280px;
+   padding: 11px;
+   padding-left: 3px;
+   
 }
-
-
- @media screen and (max-width: 600px) {
-  .navigation{
-    position: relative;
- background-color: rgb(255, 0, 191); 
- display:inline-flex;
- /* vertical-align: top; */
-padding: 60px;
-padding-bottom: 3px;
-width: 80%;
-margin-top: -60px;
-color:black;
-  }
-
-
-    
-    
-    /* {
-        width: 800px;
-    }
-     */
-
-    } 
-  
+/*################################################################################"""""""*/
+/*################################################################################"""""""*/
+/*################################################################################"""""""*/
+/*################################################################################"""""""*/
