@@ -10,6 +10,8 @@ position: relative;
 padding: 60px;
 padding-bottom: 3px;
 width: 80%;
+margin-top: -60px;
+color:black;
 }
  .button1{
  position:absolute;
@@ -48,7 +50,9 @@ display:inline-flex;
 padding: 16px;
 
 
+
 }
+
 ul{
     
 list-style: none;
@@ -82,6 +86,8 @@ padding-left: 2cm;
     height: 5cm;
     margin-left: 50px;
     margin-right: 50px;
+    
+    border-radius: 3px;
     /* padding: 2cm; */
 
 
@@ -94,7 +100,7 @@ padding-left: 2cm;
     position: absolute;
     display: flex;
     width: 250px;
-    height: 270px;
+    height: 290px;
     margin-left: 70% ;
      margin-bottom: 100px; 
     /* background-color: white;  */
@@ -111,6 +117,7 @@ a:link {
     font-family: 'Trebuchet MS', sans-serif;
     color: rgb(225, 237, 247);
     padding-left: 1cm;
+    
   }
 
 .search-bar {
@@ -131,7 +138,6 @@ width: 7cm;
 /* width:3cm; */
 
 }
-
 
 
 .title-button{
@@ -164,27 +170,26 @@ width: 7cm;
 }
 
 
-@media screen and (max-width: 600px) {
-    .navigation,
-    .button1,
-    .button2,
-    .li,
-    .ul,
-    .nav,
-    .login,
-    #header,
-    .image,
-    .title,
-    .search-bar, 
-    a:link,
-    .title-button
+ @media screen and (max-width: 600px) {
+  .navigation{
+    position: relative;
+ background-color: rgb(255, 0, 191); 
+ display:inline-flex;
+ /* vertical-align: top; */
+padding: 60px;
+padding-bottom: 3px;
+width: 80%;
+margin-top: -60px;
+color:black;
+  }
 
 
     
     
-    {
-        width: 390px;
+    /* {
+        width: 800px;
     }
-    
+     */
 
-    }
+    } 
+  
