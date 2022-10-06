@@ -7,8 +7,9 @@ position: relative;
  background-color: rgb(255, 255, 255); 
  display:inline-flex;
  /* vertical-align: top; */
-padding: 6px;
-width: 100%;
+padding: 60px;
+padding-bottom: 3px;
+width: 80%;
 }
  .button1{
  position:absolute;
@@ -37,16 +38,7 @@ color:white;
    
    }
 
- @media screen and (max-width: 600px) {
-    .navigation
-    
-    
-    {
-        width: 70%;
-    }
-    
 
-    }
     
    
 
@@ -60,7 +52,8 @@ padding: 16px;
 ul{
     
 list-style: none;
-padding: l3cm; ;
+padding: l3cm;
+padding-top: 20px; 
 
 }
 nav{
@@ -72,10 +65,11 @@ padding-left: 2cm;
 /* .style{
     /* font-family: Trebuchet ; */
  
- .login{
- position:absolute;
+ .login {
+    position:absolute;
     padding-left: 90%;
     display:flex;
+    left:200px 
 
 
 }
@@ -88,6 +82,7 @@ padding-left: 2cm;
     height: 5cm;
     margin-left: 50px;
     margin-right: 50px;
+    /* padding: 2cm; */
 
 
 
@@ -101,7 +96,7 @@ padding-left: 2cm;
     width: 250px;
     height: 270px;
     margin-left: 70% ;
-    margin-bottom: 100px;
+     margin-bottom: 100px; 
     /* background-color: white;  */
     
 }
@@ -110,41 +105,86 @@ padding-left: 2cm;
 a:link {
     text-decoration: none;
   }
+
   .title{
+    position: relative;
     font-family: 'Trebuchet MS', sans-serif;
     color: rgb(225, 237, 247);
     padding-left: 1cm;
   }
-.search-bar{
-    display: inline-block;
+
+.search-bar {
+ display: flex;
  position: absolute;   
-padding-top:3cm; 
-padding-left: 2cm;
+/* padding-top:3cm; 
+padding-left: 2cm; */
 height: 40px;
+border-radius: 7px;
+width: 7cm;
+
+
+
+/* min-width: 100px; */
+
+
+
 /* width:3cm; */
 
 }
 
 
+
 .title-button{
     /* margin-top: 30px; */
     /* margin-left:5cm ; */
+    /* display: flex; */
+    display: table-cell;
+    vertical-align: middle;
     width: 200px;
-    right: 20px;
+    right: -1cm;
     position: absolute;
     height: 40px;
     /* top:2cm; */
-    right: 18cm;
     
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 54%, rgba(252,176,69,1) 100%);
+    border-radius: 7px;
+    
+   
+
+}
+/* body{
+  margin-top: 10cm;
+
+
+} */
+
+.title input{
+    color:black;
 }
 
 
+@media screen and (max-width: 600px) {
+    .navigation,
+    .button1,
+    .button2,
+    .li,
+    .ul,
+    .nav,
+    .login,
+    #header,
+    .image,
+    .title,
+    .search-bar, 
+    a:link,
+    .title-button
 
-/* .fa fa-facebook icon {
-    position: absolute;
-    left: 7cm;
-    padding: 10px;
-    margin: 0;
-    min-width: 40px;
 
-} */
+    
+    
+    {
+        width: 390px;
+    }
+    
+
+    }
