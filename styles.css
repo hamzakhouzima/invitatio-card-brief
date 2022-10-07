@@ -44,7 +44,7 @@ color:white;
     
    
 
-li{
+.bb{
 
 display:inline-flex;
 padding: 16px;
@@ -53,14 +53,14 @@ padding: 16px;
 
 }
 
-ul{
+.options{
     
 list-style: none;
 padding: l3cm;
 padding-top: 20px; 
 
 }
-nav{
+.navig{
 float: left;
 display:flex;
 padding-left: 2cm;
@@ -76,7 +76,7 @@ padding-left: 2cm;
 
 
 }
-#header{
+.header{
     display: flex;
     position: relative;
     margin-bottom: 100px; 
@@ -169,3 +169,11 @@ width: 7cm;
 /*################################################################################"""""""*/
 /*################################################################################"""""""*/
 /*################################################################################"""""""*/
+/* @media only screen and (min-width:820px ){
+
+.options{
+    display:inline-flex;
+    padding: 0px 0px 0px;
+}
+
+} */
